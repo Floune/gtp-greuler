@@ -1,0 +1,7 @@
+.node .label {
+    fill: black
+}
+
+.node:hover circle{
+    fill: yellowgreen;
+}

@@ -19,6 +19,11 @@ compute-lcg@^1.0.0:
   resolved "https://registry.yarnpkg.com/compute-lcg/-/compute-lcg-1.0.0.tgz#f0371e9325484f337349a12a4d715539899daf72"
   integrity sha1-8DcekyVITzNzSaEqTXFVOYmdr3I=
 
+create-element-lib@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/create-element-lib/-/create-element-lib-0.2.1.tgz#906439e4494feae7cce410373af53832d7d3eb2e"
+  integrity sha512-f+9NhnW2DdJ9spgNHsbIy8hT7DtUvUpkelhKAZSgNpgP0tZZ+o/6Hwoul9rQJkhlGthmSdP04UcivbvanA5rig==
+
 d3-array@^1.2.0:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.4.tgz#635ce4d5eea759f6f605863dbcfc30edc737f71f"
@@ -148,6 +153,11 @@ extend@^3.0.2:
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
+fast-array-diff@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fast-array-diff/-/fast-array-diff-1.0.0.tgz#4ff6315e7cd9a8a9cbcf59a5c7e2ae2bdcee6763"
+  integrity sha512-ogkVOYhBglkIsl5pjxZ7dIuItFG+1Ihh1kCChVaNgPZ30gQggRcuSjm4v4lAoS8ruGu8wFnHWYMEMO8dtKNgoA==
+
 follow-redirects@^1.10.0:
   version "1.13.3"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
@@ -175,6 +185,13 @@ lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+ui-preloader@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ui-preloader/-/ui-preloader-1.0.0.tgz#4f3719a0f6e07db0d305cae77cbc1617afe91530"
+  integrity sha512-TJgws4UV70GQhRAZND1oNtyzyNZKHWMZzt0BDNrpvcm3jAO9qK8s0FZbyFU8/+kUBGpSMSwfcSEM4GfmFC5kNQ==
+  dependencies:
+    create-element-lib "^0.2.0"
 
 webcola@^3.4.0:
   version "3.4.0"

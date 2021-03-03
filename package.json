@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "fast-array-diff": "^1.0.0",
     "greuler": "^1.0.0-alpha6",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "ui-preloader": "^1.0.0"
   }
 }
